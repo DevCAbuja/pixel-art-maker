@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    color:black;
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(134,174,204,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(134,174,204,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(134,174,204,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(134,174,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#86aecc', GradientType=1 );
+}
+
+
+h1 {
+    font-family: impact;
+    font-size: 120px;
+    margin: 0.2em;
+    cursor:crosshair;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+#save{
+  margin-bottom: 10px;
+}
+
+h2:first-of-type {
+    margin-top: 1em;
+}
+
+table,
+tr,
+td {
+    border: 0.5px solid black;
+    cursor:cell;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+input[type=submit]{
+    cursor:pointer;
+}
+input[type=color]{
+    cursor:pointer;
+    width:100px;
+}
